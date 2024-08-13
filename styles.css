@@ -54,6 +54,12 @@ body {
   z-index: 99;
 }
 
+.message-container__button-close img:hover,
+.message-container__button-close img:active {
+    transform: scale(1.1);
+    transition: transform 0.1s ease;
+}
+
 .message-container__image {
   width: 100%;
   height: 100%;
@@ -265,7 +271,13 @@ body {
   border-radius: 4px;
   transition: background-color 0.3s ease;
 }
-
+.slick-prev:hover,
+.slick-prev:active,
+.slick-next:hover,
+.slick-next:active {
+    transform: scale(1.1);
+    transition: transform 0.1s ease;
+}
 
 #left {
   background-image: url(https://braze-images.com/appboy/communication/assets/svg_assets/files/6696561516effc00598ec7ae/original.svg?1721128469);

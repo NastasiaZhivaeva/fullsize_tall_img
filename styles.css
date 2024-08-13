@@ -107,6 +107,20 @@ body {
   border: 1px solid var(--primary-neutral);
 }
 
+.button-container__button--primary:hover,
+.button-container__button--primary:active {
+  transform: scale(1.02);
+  background-color: var( --primary-color-dark);
+
+}
+
+.button-container__button--secondary:hover,
+.button-container__button--secondary:active {
+  transform: scale(1.02);
+  background-color: var(--white-hover);
+
+}
+
 .primary-button {
   background: var(--primary-color);
   color: var(--white);
